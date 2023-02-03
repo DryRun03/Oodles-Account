@@ -1,0 +1,65 @@
+package com.oodles.dto;
+
+public class InvoiceFilterDto {
+
+	private String month;
+
+	private String year;
+
+	private String aging;
+
+	private String businessVertical;
+
+	private boolean isInternal;
+	
+	private String currencyType;
+
+	public String getMonth() {
+		return month;
+	}
+
+	public void setMonth(String month) {
+		this.month = month;
+	}
+
+	public String getYear() {
+		return year;
+	}
+
+	public void setYear(String year) {
+		this.year = year;
+	}
+
+	public String getAging() {
+		return aging;
+	}
+
+	public void setAging(String aging) {
+		this.aging = aging;
+	}
+
+	public String getBusinessVertical() {
+		return businessVertical;
+	}
+
+	public void setBusinessVertical(String businessVertical) {
+		this.businessVertical = businessVertical;
+	}
+
+	public boolean isInternal() {
+		return isInternal;
+	}
+
+	public void setInternal(boolean isInternal) {
+		this.isInternal = isInternal;
+	}
+
+	public String getCurrencyType() {
+		return currencyType;
+	}
+
+	public void setCurrencyType(String currencyType) {
+		this.currencyType = currencyType;
+	}
+
+}
